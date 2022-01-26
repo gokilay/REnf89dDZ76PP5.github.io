@@ -1,0 +1,60 @@
+{
+  "license": {
+    "source": "https://github.com/LaQuay/TDTChannels",
+    "url": "https://github.com/LaQuay/TDTChannels/blob/master/LICENSE"
+  },
+  "epg": {
+    "xml": "https://www.tdtchannels.com/epg/TV.xml",
+    "xml.gz": "https://www.tdtchannels.com/epg/TV.xml.gz",
+    "json": "https://www.tdtchannels.com/epg/TV.json"
+  },
+  "countries": [
+    {
+      "name": "Spain",
+      "ambits": [
+        {
+          "name": "Programas",
+          "channels": [
+            {
+              "name": "Secret Story",
+              "web": "https://www.mitele.es/directo/secret-story-24h/",
+              "logo": "https://graph.facebook.com/SecretStoryEs/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                  "format": "iframe",
+                  "url": "https://ss.tdtnow.com/",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": [
+                "EMB"
+              ]
+            },
+            {
+              "name": "Isla Tentaciones",
+              "web": "https://www.mitele.es/directo/secret-story-24h/",
+              "logo": "https://graph.facebook.com/islatentaciones/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                  "format": "iframe",
+                  "url": "https://it.tdtnow.ml/",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": [
+                "EMB"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updated": 1642858297
+}
