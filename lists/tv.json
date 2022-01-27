@@ -27,9 +27,18 @@
                   "geo2": null,
                   "res": null,
                   "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "http://revolucionariostv.me/Secreto/emisionp2.php",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
                 }
               ],
-              "extra_info": []
+              "extra_info": [
+                "EMB"
+              ]
             },
             {
               "name": "La 1",
@@ -216,7 +225,15 @@
               "web": "https://www.atresplayer.com/directos/mega/",
               "logo": "https://graph.facebook.com/megaTDT/picture?width=200&height=200",
               "epg_id": "Mega.TV",
-              "options": [],
+              "options": [
+                {
+                  "format": "iframe",
+                  "url": "https://www.youtube.com/embed/E_UGfOG4Z6Q",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
               "extra_info": [
                 "W3U",
                 "EMB",
@@ -3510,8 +3527,8 @@
               "options": [
                 {
                   "format": "m3u8",
-                  "url": "https://directes-tv-int.ccma.cat/int/ngrp:tv3_web/.m3u8",
-                  "geo2": null,
+                  "url": "https://directes-tv-cat.ccma.cat/cat/ngrp:tv3_web/playlist.m3u8",
+                  "geo2": "CAT",
                   "res": null,
                   "lang": null
                 },
@@ -3538,14 +3555,7 @@
               "logo": "https://graph.facebook.com/324cat/picture?width=200&height=200",
               "epg_id": "324.TV",
               "options": [
-              {
-                  "format": "m3u8",
-                  "url": "https://directes-tv-int.ccma.cat/int/ngrp:324_web/.m3u8",
-                  "geo2": null,
-                  "res": null,
-                  "lang": null
-                },  
-              {
+                {
                   "format": "m3u8",
                   "url": "https://directes-tv-int.ccma.cat/int/ngrp:324_web/playlist.m3u8",
                   "geo2": null,
@@ -3819,7 +3829,7 @@
               "options": [
                 {
                   "format": "m3u8",
-                  "url": "https://www.tdtchannels.com/stream/tevecat.m3u8",
+                  "url": "https://limited35.todostreaming.es/live/mitjans-livestream.m3u8",
                   "geo2": null,
                   "res": null,
                   "lang": null
