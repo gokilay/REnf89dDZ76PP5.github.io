@@ -30,6 +30,13 @@
                 },
                 {
                   "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3384272685720",
+                  "geo2": "Gala 3",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
                   "url": "https://ok.ru/videoembed/3372659444376",
                   "geo2": "Debate 2",
                   "res": null,
