@@ -29,8 +29,8 @@
                   "lang": null
                 },
                 {
-                  "format": "iframe",
-                  "url": "http://revolucionariostv.me/Secreto/emisionp2.php",
+                  "format": "m3u8",
+                  "url": "http://elmirillas.hopto.org:8080/hls/secreto.m3u8",
                   "geo2": null,
                   "res": null,
                   "lang": null
