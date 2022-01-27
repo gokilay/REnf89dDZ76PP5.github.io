@@ -679,6 +679,19 @@
           "name": "Deportivos",
           "channels": [
             {
+              "name": "ESPN",
+              "web": null,
+              "logo": "https://graph.facebook.com/ESPN/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                  "format": "mpd",
+                  "url": "https://edge-live16-sl.cvattv.com.ar/live/c3eds/ESPN2HD/SA_Live_dash_enc_2A/ESPN2HD.mpd",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                },
+            {
               "name": "Teledeporte",
               "web": "https://www.rtve.es/play/videos/directo/tdp/",
               "logo": "https://graph.facebook.com/teledeporteRTVE/picture?width=200&height=200",
