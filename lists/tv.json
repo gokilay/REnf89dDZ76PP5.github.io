@@ -679,19 +679,6 @@
           "name": "Deportivos",
           "channels": [
             {
-              "name": "ESPN",
-              "web": null,
-              "logo": "https://graph.facebook.com/ESPN/picture?width=200&height=200",
-              "epg_id": null,
-              "options": [
-                {
-                  "format": "mpd",
-                  "url": "https://edge-live16-sl.cvattv.com.ar/live/c3eds/ESPN2HD/SA_Live_dash_enc_2A/ESPN2HD.mpd",
-                  "geo2": null,
-                  "res": null,
-                  "lang": null
-                },
-            {
               "name": "Teledeporte",
               "web": "https://www.rtve.es/play/videos/directo/tdp/",
               "logo": "https://graph.facebook.com/teledeporteRTVE/picture?width=200&height=200",
@@ -905,6 +892,37 @@
                 {
                   "format": "youtube",
                   "url": "https://www.youtube.com/espanyoltv/live",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": []
+            },
+            {
+              "name": "Tennis Channel",
+              "web": "https://www.tennischannel.app/",
+              "logo": "https://graph.facebook.com/tennischannel/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                  "format": "m3u8",
+                  "url": "https://dai.google.com/linear/hls/pa/event/dxr7bQpBQSC9ECCIrBRBVg/stream/4afe05df-4be2-45c5-af81-e28beed3019e:BRU/master.m3u8",
+                  "geo2": null,
+                  "res": null,
+                  "lang": null
+                }
+              ],
+              "extra_info": []
+            },
+            {
+              "name": "FTF",
+              "logo": "https://graph.facebook.com/ForTheFansHQ/picture?width=200&height=200",
+              "epg_id": null,
+              "options": [
+                {
+                  "format": "m3u8",
+                  "url": "https://eleven-rebroadcast-samsung.plex.wurl.com/manifest/playlist.m3u8",
                   "geo2": null,
                   "res": null,
                   "lang": null
