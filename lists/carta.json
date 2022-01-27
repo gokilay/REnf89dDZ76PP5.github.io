@@ -27,6 +27,34 @@
                   "geo2": "Tutorial",
                   "res": null,
                   "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3372659444376",
+                  "geo2": "Debate 2",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3354807306904",
+                  "geo2": "Gala 2",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3355457292952",
+                  "geo2": "Debate 1",
+                  "res": null,
+                  "lang": null
+                },
+                {
+                  "format": "iframe",
+                  "url": "https://ok.ru/videoembed/3426143505013",
+                  "geo2": "Gala 1",
+                  "res": null,
+                  "lang": null
                 }
               ],
               "extra_info": [
