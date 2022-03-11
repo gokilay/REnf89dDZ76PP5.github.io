@@ -30,7 +30,7 @@
                 },
                 {
                   "format": "m3u8",
-                  "url": "http://elmirillas.hopto.org:8080/hls/secreto.m3u8",
+                  "url": "http://elcielomola.ddns.net:8080/hls/secreto.m3u8",
                   "geo2": null,
                   "res": null,
                   "lang": null
