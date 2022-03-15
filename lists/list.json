@@ -81,7 +81,15 @@
                 "web": "https://www.atresplayer.com/directos/antena3/",
                 "logo": "https://graph.facebook.com/antena3/picture?width=200&height=200",
                 "epg_id": "Antena3.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "iframe",
+                    "url": "https://wigistream.to/embed/bubawn6gg",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EMB",
@@ -144,7 +152,15 @@
                 "web": "https://www.atresplayer.com/directos/neox/",
                 "logo": "https://graph.facebook.com/neox/picture?width=200&height=200",
                 "epg_id": "Neox.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "http://154.62.74.28:1935/live/neox/playlist.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EMB",
@@ -156,7 +172,15 @@
                 "web": "https://www.atresplayer.com/directos/nova/",
                 "logo": "https://graph.facebook.com/novatdt/picture?width=200&height=200",
                 "epg_id": "Nova.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "http://154.62.74.28:1935/live/novanntv/playlist.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EMB",
@@ -168,7 +192,15 @@
                 "web": "https://www.atresplayer.com/directos/mega/",
                 "logo": "https://graph.facebook.com/megaTDT/picture?width=200&height=200",
                 "epg_id": "Mega.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "http://154.62.74.29:1935/live/mega/chunklist_w1555082919.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EMB",
@@ -192,7 +224,15 @@
                 "web": "https://www.mitele.es/directo/fdf",
                 "logo": "https://graph.facebook.com/factoriadeficcion/picture?width=200&height=200",
                 "epg_id": "FDF.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "http://154.62.74.12:1935/live/smil:fdf.smil/chunklist_w491095780_b3128000_sling.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EMB",
@@ -204,7 +244,15 @@
                 "web": "https://www.mitele.es/directo/energy",
                 "logo": "https://graph.facebook.com/E.EnergyTV/picture?width=200&height=200",
                 "epg_id": "Energy.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "http://154.62.74.29:1935/live/mega/chunklist_w1555082919.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EMB",
@@ -216,7 +264,15 @@
                 "web": "https://www.mitele.es/directo/divinity",
                 "logo": "https://graph.facebook.com/divinityes/picture?width=200&height=200",
                 "epg_id": "Divinity.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "http://154.62.74.29:1935/live/mega/chunklist_w1555082919.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EMB",
@@ -228,7 +284,15 @@
                 "web": "https://www.mitele.es/directo/bemad",
                 "logo": "https://graph.facebook.com/BeMadTV/picture?width=200&height=200",
                 "epg_id": "Bemad.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "http://154.62.74.28:1935/live/bemad/playlist.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EMB",
@@ -313,7 +377,15 @@
                 "web": "https://tentv.es",
                 "logo": "https://graph.facebook.com/televisionten/picture?width=200&height=200",
                 "epg_id": "TEN.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "http://154.62.74.12:1935/live/smil:ten.smil/playlist.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "NOEM"
                 ]
@@ -556,6 +628,60 @@
             "name": "Deportivos",
             "channels": [
               {
+                "name": "Liga de Campeones",
+                "web": "https://www.movistarplus.es/canal/m-plus-liga-de-campeones-10?id=CHAP10",
+                "logo": "https://i.imgur.com/36esQ4V.jpeg",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "iframe",
+                    "url": "https://goalmatch.webcindario.com/",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "EMB"
+                ]
+              },
+              {
+                "name": "ESPN",
+                "web": "https://espndeportes.espn.com/",
+                "logo": "https://pbs.twimg.com/profile_images/1170690523201527808/FriNRiir_400x400.png",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://edge03-fdo-py.cvattv.com.ar/live/c3eds/ESPN2HD/SA_SAGEMCOM/ESPN2HD.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "EMB"
+                ]
+              },
+              {
+                "name": "ESPN 2",
+                "web": "https://espndeportes.espn.com/",
+                "logo": "https://pbs.twimg.com/profile_images/1170690523201527808/FriNRiir_400x400.png",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://edge03-fdo-py.cvattv.com.ar/live/c6eds/ESPN2_Arg/SA_SAGEMCOM/ESPN2_Arg.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "EMB"
+                ]
+              },
+              {
                 "name": "Teledeporte",
                 "web": "https://www.rtve.es/play/videos/directo/tdp/",
                 "logo": "https://graph.facebook.com/teledeporteRTVE/picture?width=200&height=200",
@@ -590,7 +716,15 @@
                 "web": "https://www.goltelevision.com/en-directo",
                 "logo": "https://graph.facebook.com/goltv.es/picture?width=200&height=200",
                 "epg_id": "GOL.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "http://154.62.74.29:1935/live/gol/playlist.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EXTA"
@@ -713,7 +847,15 @@
                 "web": "https://www.realmadrid.com/real-madrid-tv",
                 "logo": "https://graph.facebook.com/RealMadrid/picture?width=200&height=200",
                 "epg_id": "RMTV.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "hhttp://154.62.74.11:1935/live/realmadridnntv/playlist.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EMB",
