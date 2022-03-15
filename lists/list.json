@@ -81,15 +81,7 @@
                 "web": "https://www.atresplayer.com/directos/antena3/",
                 "logo": "https://graph.facebook.com/antena3/picture?width=200&height=200",
                 "epg_id": "Antena3.TV",
-                "options": [
-                    {
-                        "format": "m3u8",
-                        "url": "http://regioplay.xyz/php/SR_REGIO_703022_/tpa.php?c=199&p=3&k=srregio&f=.m3u8                     ",
-                        "geo2": null,
-                        "res": null,
-                        "lang": null
-                    }
-                ],
+                "options": [],
                 "extra_info": [
                   "W3U",
                   "EMB",
@@ -113,7 +105,22 @@
                 "web": "https://www.mitele.es/directo/telecinco",
                 "logo": "https://graph.facebook.com/tele5/picture?width=200&height=200",
                 "epg_id": "Telecinco.TV",
-                "options": [],
+                "options": [
+                    {
+                    "format": "m3u8",
+                    "url": "http://31.24.159.221:8080/hls/t5.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  },
+                  {
+                    "format": "iframe",
+                    "url": "https://ok.ru/videoembed/3678942797427",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EMB",
