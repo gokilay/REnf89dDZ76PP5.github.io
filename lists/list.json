@@ -727,6 +727,24 @@
                   }
                 ],
                 "extra_info": []
+              },
+              {
+                "name": "RT",
+                "web": "https://actualidad.rt.com/en_vivo2",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/400px-Russia-today-logo.svg.png",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "stream",
+                    "url": "https://vk.com/video_ext.php?oid=-61174019&id=456239447&hash=c7e74582acb91336",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "EMB"
+                ]
               }
             ]
           },
