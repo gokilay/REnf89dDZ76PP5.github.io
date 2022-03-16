@@ -83,7 +83,7 @@
                 "epg_id": "Antena3.TV",
                 "options": [
                   {
-                    "format": "iframe",
+                    "format": "stream",
                     "url": "https://wigistream.to/embed/bubawn6gg",
                     "geo2": null,
                     "res": null,
@@ -122,7 +122,7 @@
                     "lang": null
                   },
                   {
-                    "format": "iframe",
+                    "format": "stream",
                     "url": "https://ok.ru/videoembed/3678942797427",
                     "geo2": null,
                     "res": null,
@@ -307,7 +307,7 @@
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/live.smil/playlist.m3u8",
+                    "url": "https://live-edge-lon-1.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/liveld/index.m3u8",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -373,6 +373,38 @@
                 "extra_info": []
               },
               {
+                "name": "LQSA 24h",
+                "web": null,
+                "logo": "https://graph.facebook.com/laqueseavecina.serie/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://cdn7.lqsa.es/hls/stream.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": []
+              },
+              {
+                "name": "ANHQV 24h",
+                "web": null,
+                "logo": "https://d1go27vtttaqyn.cloudfront.net/movies/aqui-no-hay.jpg",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://cdn5.lqsa.es/hls/stream.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": []
+              },
+              {
                 "name": "Ten",
                 "web": "https://tentv.es",
                 "logo": "https://graph.facebook.com/televisionten/picture?width=200&height=200",
@@ -395,7 +427,15 @@
                 "web": "https://es.dplay.com/dmax/",
                 "logo": "https://graph.facebook.com/DMAXes/picture?width=200&height=200",
                 "epg_id": "DMax.TV",
-                "options": [],
+                "options": [  
+                  {
+                    "format": "m3u8",
+                    "url": "http://154.62.74.28:1935/live/discoverymax/.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "NOEM"
                 ]
@@ -405,7 +445,15 @@
                 "web": "https://es.dplay.com/dkiss/",
                 "logo": "https://graph.facebook.com/DKissTV/picture?width=200&height=200",
                 "epg_id": "DKISS.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "http://154.62.74.12:1935/live/kiss.smil/.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "NOEM"
                 ]
@@ -415,7 +463,15 @@
                 "web": "https://www.paramountnetwork.es",
                 "logo": "https://graph.facebook.com/ParamountNetworkES/picture?width=200&height=200",
                 "epg_id": "Paramount.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "http://154.62.74.11:1935/live/paramount.smil/.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "NOEM"
                 ]
@@ -429,6 +485,40 @@
                 "extra_info": [
                   "NOEM"
                 ]
+              },
+              {
+                "name": "VitalTV",
+                "web": "https://www.vitaltv.es/",
+                "logo": "https://i.imgur.com/jtvEJEo.png",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://service.webvideocore.net/CL1olYogIrDWvwqiIKK7eNrhWgtOiwWeSaK-zPpk3ilY03m7riadAETZaYwDl3zx/cbzf8cqckso4.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "NOEM"
+                ]
+              },
+              {
+                "name": "Consciente",
+                "web": "https://www.televisionconsciente.com/directo-24h",
+                "logo": "https://graph.facebook.com/televisionconsciente/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://cdn041.fractalmedia.es/stream/created/tvc-35/index.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": []
               }
             ]
           },
@@ -621,6 +711,22 @@
                   }
                 ],
                 "extra_info": []
+              },
+              {
+                "name": "CNN Español",
+                "web": "https://cnnespanol.cnn.com/",
+                "logo": "https://graph.facebook.com/CNNee/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://edge03-fdo-py.cvattv.com.ar/live/c6eds/CNN_en_Espanol/SA_SAGEMCOM/CNN_en_Espanol.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": []
               }
             ]
           },
@@ -634,7 +740,7 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "iframe",
+                    "format": "stream",
                     "url": "https://goalmatch.webcindario.com/",
                     "geo2": null,
                     "res": null,
@@ -648,7 +754,7 @@
               {
                 "name": "ESPN",
                 "web": "https://espndeportes.espn.com/",
-                "logo": "https://pbs.twimg.com/profile_images/1170690523201527808/FriNRiir_400x400.png",
+                "logo": "https://graph.facebook.com/ESPN/picture?width=200&height=200",
                 "epg_id": null,
                 "options": [
                   {
@@ -666,12 +772,120 @@
               {
                 "name": "ESPN 2",
                 "web": "https://espndeportes.espn.com/",
-                "logo": "https://pbs.twimg.com/profile_images/1170690523201527808/FriNRiir_400x400.png",
+                "logo": "https://graph.facebook.com/ESPN/picture?width=200&height=200",
                 "epg_id": null,
                 "options": [
                   {
                     "format": "m3u8",
                     "url": "https://edge03-fdo-py.cvattv.com.ar/live/c6eds/ESPN2_Arg/SA_SAGEMCOM/ESPN2_Arg.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "EMB"
+                ]
+              },
+              {
+                "name": "ESPN 3",
+                "web": "https://espndeportes.espn.com/",
+                "logo": "https://graph.facebook.com/ESPN/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://edge03-fdo-py.cvattv.com.ar/live/c3eds/ESPN3/SA_SAGEMCOM/ESPN3.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "EMB"
+                ]
+              },
+              {
+                "name": "ESPN Extra",
+                "web": "https://espndeportes.espn.com/",
+                "logo": "https://graph.facebook.com/ESPN/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://edge03-fdo-py.cvattv.com.ar/live/c3eds/ESPNHD/SA_SAGEMCOM/ESPNHD.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "EMB"
+                ]
+              },
+              {
+                "name": "Fox Sports",
+                "web": "https://www.foxsports.com/live",
+                "logo": "https://graph.facebook.com/foxsports/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://edge03-fdo-py.cvattv.com.ar/live/c3eds/FoxSports/SA_SAGEMCOM/FoxSports.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "EMB"
+                ]
+              },
+              {
+                "name": "Fox Sports 2",
+                "web": "https://www.foxsports.com/live",
+                "logo": "https://graph.facebook.com/foxsports/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://edge03-fdo-py.cvattv.com.ar/live/c3eds/FoxSports2HD/SA_SAGEMCOM/FoxSports2HD.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "EMB"
+                ]
+              },
+              {
+                "name": "Fox Sports 3",
+                "web": "https://www.foxsports.com/live",
+                "logo": "https://graph.facebook.com/foxsports/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://edge03-fdo-py.cvattv.com.ar/live/c3eds/FoxSports3HD/SA_SAGEMCOM/FoxSports3HD.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "EMB"
+                ]
+              },
+              {
+                "name": "Fox Sports Premium",
+                "web": "https://www.foxsports.com/live",
+                "logo": "https://graph.facebook.com/foxsports/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://edge03-fdo-py.cvattv.com.ar/live/c3eds/Fox_Sports_Premiun_HD/SA_SAGEMCOM/Fox_Sports_Premiun_HD.m3u8",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -885,7 +1099,15 @@
                 "web": "https://www.realbetisbalompie.es/rtvbetis/directo-tv/",
                 "logo": "https://graph.facebook.com/realbetisbalompie/picture?width=200&height=200",
                 "epg_id": "BetisTV.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://betistv-live.flumotion.com/1hBaMJOLEE1BY3Zhdwmznw/1647395411/betistv/live_all/playlist.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EXTA"
@@ -1106,6 +1328,42 @@
                 "extra_info": [
                   "EMB"
                 ]
+              },
+              {
+                "name": "TNT Sports",
+                "web": "https://go.tntsports.com.ar/#!/envivo",
+                "logo": "https://graph.facebook.com/TNTSportsAR/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://edge03-fdo-py.cvattv.com.ar/live/c3eds/TNT_Sports_HD/SA_SAGEMCOM/TNT_Sports_HD.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "EMB"
+                ]
+              },
+              {
+                "name": "TNT Sports Chile",
+                "web": "https://go.tntsports.com.ar/#!/envivo",
+                "logo": "https://graph.facebook.com/TNTSportsCL/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://d3junmnzdfp8ej.cloudfront.net/hls/tv.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "EMB"
+                ]
               }
             ]
           },
@@ -1293,6 +1551,24 @@
                 "extra_info": [
                   "EMB"
                 ]
+              },
+              {
+                "name": "Kids TV",
+                "web": null,
+                "logo": "https://www.uspstudios.co/images/channels/Zq1vpCfetnmvfP8OBXE.jpg",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "stream",
+                    "url": "https://yowi.tv/embed/kidstv",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "EMB"
+                ]
               }
             ]
           },
@@ -1436,7 +1712,7 @@
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://congresodirecto-f.akamaihd.net/i/congreso6_1@54665/master.m3u8",
+                    "url": "https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/playlist.m3u8",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -1780,15 +2056,15 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://cdn01.yowi.tv/503L6OKTE2/master.m3u8",
+                    "format": "stream",
+                    "url": "https://yowi.tv/embed/canal45jaen",
                     "geo2": null,
                     "res": null,
                     "lang": null
                   }
                 ],
                 "extra_info": [
-                  "NONAV"
+                  "EMB"
                 ]
               },
               {
@@ -1805,9 +2081,7 @@
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "C\u00f3rdoba TV",
@@ -1858,6 +2132,22 @@
                 "extra_info": []
               },
               {
+                "name": "Vivamóvil",
+                "web": "https://vivamovil.tv/en-directo/",
+                "logo": "https://graph.facebook.com/VivamovilTV/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://5d8d85cf2c308.streamlock.net:1936/AlcalaTV/endirecto/.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": []
+              },
+              {
                 "name": "Condavisi\u00f3n",
                 "web": "https://www.condavision.es",
                 "logo": "https://graph.facebook.com/condavision/picture?width=200&height=200",
@@ -1894,7 +2184,15 @@
                 "web": "https://www.uvitel.tv/directo/",
                 "logo": "https://graph.facebook.com/uviteltv/picture?width=200&height=200",
                 "epg_id": null,
-                "options": [],
+                "options": [
+                  {
+                    "format": "stream",
+                    "url": "https://vimeo.com/event/1941180/embed",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EMB",
@@ -2066,7 +2364,15 @@
                 "web": "http://www.ondajerez.com",
                 "logo": "https://graph.facebook.com/OndaJerezRTV/picture?width=200&height=200",
                 "epg_id": null,
-                "options": [],
+                "options": [
+                  {
+                    "format": "stream",
+                    "url": "https://player.vimeo.com/video/688299203?h=6d5bd6bd95&autoplay=1&title=0&byline=0&portrait=0",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EMB",
@@ -2121,9 +2427,7 @@
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "Tel\u00e9cija",
@@ -2203,16 +2507,14 @@
                 "epg_id": "Torrevision.TV",
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://api.new.livestream.com/accounts/2614936/events/9797134/live.m3u8",
+                    "format": "stream",
+                    "url": "https://livestream.com/accounts/2614936/events/9797134/player?autoPlay=true",
                     "geo2": null,
                     "res": null,
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "Telequivir",
@@ -2246,9 +2548,7 @@
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "Diez TV",
@@ -2268,20 +2568,12 @@
               },
               {
                 "name": "Medial TV",
-                "web": "https://medialtv.com/category/television/",
+                "web": "https://player.twitch.tv/?channel=medialtv2020&parent=tv",
                 "logo": "https://graph.facebook.com/MEDIALTELEVISION/picture?width=200&height=200",
                 "epg_id": null,
-                "options": [
-                  {
-                    "format": "stream",
-                    "url": "https://player.twitch.tv/?channel=medialtv2020&parent=tdtchannels.com&parent=www.tdtchannels.com",
-                    "geo2": null,
-                    "res": null,
-                    "lang": null
-                  }
-                ],
+                "options": [],
                 "extra_info": [
-                  "EMB"
+                  "NONAV"
                 ]
               },
               {
@@ -2376,7 +2668,7 @@
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://www.tdtchannels.com/stream/saltv.m3u8",
+                    "url": "https://bit.controlstreams.com:5443/LiveApp/streams/saltv.m3u8",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -2392,7 +2684,7 @@
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://9laloma.tv/live.m3u8",
+                    "url": "https://directo.9laloma.es/live/1080.m3u8",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -2464,9 +2756,7 @@
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "TeleGilena",
@@ -2530,9 +2820,7 @@
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "PTV Sevilla",
@@ -2548,9 +2836,7 @@
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "Canal Co\u00edn",
@@ -2602,7 +2888,7 @@
               },
               {
                 "name": "Cancionero TV",
-                "web": "http://www.cancionero.es/tv/",
+                "web": "http://89.140.229.4/hls1/cancionero.m3u8",
                 "logo": "https://www.cancionero.es/portal/images/imagesweb/LogoTV_Trans.png",
                 "epg_id": null,
                 "options": [
@@ -2614,7 +2900,9 @@
                     "lang": null
                   }
                 ],
-                "extra_info": []
+                "extra_info": [
+                  "NONAV"
+                ]
               },
               {
                 "name": "Trebujena TV",
@@ -2949,7 +3237,7 @@
                 "options": [
                   {
                     "format": "stream",
-                    "url": "https://iframe.dacast.com/b/126422/c/496014",
+                    "url": "https://stream.dacast.com/b/126422/c/496014",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -3133,9 +3421,7 @@
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "Im\u00e1s TV",
@@ -3151,30 +3437,38 @@
                     "lang": null
                   }
                 ],
+                "extra_info": []
+              },
+              {
+                "name": "CanalImagen Almansa",
+                "web": "http://str01.tvalmansa.es/emisiononline/gkogH2cbc8WZJ6IUxfnw4qMFwsT3p.m3u8",
+                "logo": "https://graph.facebook.com/TvAlmansa/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "http://str01.tvalmansa.es/emisiononline/gkogH2cbc8WZJ6IUxfnw4qMFwsT3p.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
+                  "W3U",
+                  "EXTA",
                   "NONAV"
                 ]
               },
               {
-                "name": "CanalImagen Almansa",
-                "web": "https://zonacliente.almatelecom.es/videos/canalimagen",
-                "logo": "https://graph.facebook.com/TvAlmansa/picture?width=200&height=200",
-                "epg_id": null,
-                "options": [],
-                "extra_info": [
-                  "W3U",
-                  "EXTA"
-                ]
-              },
-              {
                 "name": "InfoCanal Almansa",
-                "web": "https://zonacliente.almatelecom.es/videos/infocanal",
+                "web": "http://str01.tvalmansa.es/emisiononline/aFmpq1pI8Q1MXeC85nLefuQ4nEjU-G.m3u8",
                 "logo": "https://graph.facebook.com/TvAlmansa/picture?width=200&height=200",
                 "epg_id": null,
                 "options": [],
                 "extra_info": [
                   "W3U",
-                  "EXTA"
+                  "EXTA",
+                  "NONAV"
                 ]
               },
               {
@@ -3499,7 +3793,7 @@
               },
               {
                 "name": "Canal 54",
-                "web": "https://www.canal54.es/directo/",
+                "web": "https://player.twitch.tv/?channel=canal54tvburgos&parent=tv",
                 "logo": "https://graph.facebook.com/Canal54Burgos/picture?width=200&height=200",
                 "epg_id": null,
                 "options": [
@@ -3512,7 +3806,7 @@
                   }
                 ],
                 "extra_info": [
-                  "EMB"
+                  "NONAV"
                 ]
               },
               {
@@ -3828,15 +4122,13 @@
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_n6442jz0/format/applehttp/.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0",
+                    "url": "https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_n6442jz0/protocol/https/format/applehttp/.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0",
                     "geo2": null,
                     "res": null,
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "Fibracat TV",
@@ -3862,7 +4154,7 @@
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://www.tdtchannels.com/stream/tevecat.m3u8",
+                    "url": "https://limited35.todostreaming.es/live/mitjans-livestream.m3u8",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -3893,8 +4185,8 @@
                 "epg_id": "Terres.TV",
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/canaltetvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/c3a20f14",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -3908,7 +4200,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -3918,8 +4210,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/canalreustvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/18645006",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -3933,7 +4225,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -3943,8 +4235,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/9tvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/f588a26d",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -3958,7 +4250,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -3968,8 +4260,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/empordatvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/efccdd77",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -3983,7 +4275,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -3993,8 +4285,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/badalonatvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/6f1c739f",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4008,7 +4300,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4041,8 +4333,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/canalterrassatvlive/smil:canalterrassatv.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/f6a1aa82",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4056,7 +4348,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4066,8 +4358,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/canal21ebrelive/smil:canal21.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/8f31d9b1",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4081,7 +4373,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4091,8 +4383,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/lleidatvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/3c4db2dd",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4106,7 +4398,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4116,8 +4408,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/costabravatvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/af133ca5",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4131,7 +4423,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4141,8 +4433,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/vsnxallive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "http://player.cdnmedia.tv/embed/20c25796",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4156,7 +4448,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4166,8 +4458,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/olottvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/8f0bb11b",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4181,7 +4473,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4191,8 +4483,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/blautvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/c987bb4d",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4206,7 +4498,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4216,8 +4508,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/taronjacentrallive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/e35045d9",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4231,7 +4523,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4241,8 +4533,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/tvhospitaletlive/smil:tvhospitalet.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/8ef8968d",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4256,7 +4548,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4266,8 +4558,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/berguedatvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/0b3fd1a9",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4281,7 +4573,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4291,8 +4583,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta119.cdnmedia.tv/tvvendrelllive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/bf0b904c",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4306,7 +4598,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4316,8 +4608,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/taronjaanoialive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/680f3b01",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4331,7 +4623,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4341,15 +4633,15 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "http://liveingesta360.cdnmedia.tv/cugatcatlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/27e8f5dc",
                     "geo2": null,
                     "res": null,
                     "lang": null
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4359,8 +4651,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/votvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/f7220966",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4374,7 +4666,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4418,8 +4710,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/m1tvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "http://player.cdnmedia.tv/embed/49477208",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4433,7 +4725,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4443,8 +4735,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/rtvvilafrancalive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/e3da3f03",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4458,7 +4750,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4500,8 +4792,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/cardedeutvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/f34abb95",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4515,7 +4807,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4541,8 +4833,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/vallesvisiotvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/88b40b88",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4556,7 +4848,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4566,8 +4858,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/tvripolleslive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/dd217677",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4581,7 +4873,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4591,8 +4883,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/etvlive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/137e8a30",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4606,7 +4898,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4650,8 +4942,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/tvsabadelllive/smil:live.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/d6e371b5",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4665,7 +4957,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4675,8 +4967,8 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://liveingesta118.cdnmedia.tv/tvstestevelive/smil:tele.smil/playlist.m3u8",
+                    "format": "stream",
+                    "url": "https://playerssl.cdnmedia.tv/embed/fcb74070",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4690,7 +4982,7 @@
                   }
                 ],
                 "extra_info": [
-                  "UAGLI"
+                  "EMB"
                 ]
               },
               {
@@ -4756,7 +5048,7 @@
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://cdnlive.shooowit.net/rtvcelive/channel1.smil/playlist.m3u8",
+                    "url": "https://cdnlive.shooowit.net/rtvcelive/channel1.smil/.m3u8",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -4849,16 +5141,14 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://live.yowi.tv/f79437b2aa253f8e59f1/master.m3u8",
+                    "format": "stream",
+                    "url": "https://yowi.tv/embed/teleganes",
                     "geo2": null,
                     "res": null,
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "Distrito TV",
@@ -4867,15 +5157,15 @@
                 "epg_id": "Distrito.TV",
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://cdn01.yowi.tv/KQRSDA7GDB/master.m3u8",
+                    "format": "stream",
+                    "url": "https://yowi.tv/embed/distritotv",
                     "geo2": null,
                     "res": null,
                     "lang": null
                   }
                 ],
                 "extra_info": [
-                  "NONAV"
+                  "EMB"
                 ]
               },
               {
@@ -5036,9 +5326,7 @@
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "Parlamento de Navarra",
@@ -5180,9 +5468,7 @@
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "La 8 Mediterr\u00e1neo",
@@ -5192,14 +5478,13 @@
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://play.cdn.enetres.net/489DDF7FE98241D19D8970314BC9D3EF021/0226/playlist.m3u8",
+                    "url": "https://live-edge-lon-1.cdn.enetres.net/489DDF7FE98241D19D8970314BC9D3EF021/live1500/index.m3u8",
                     "geo2": null,
                     "res": null,
                     "lang": null
                   }
                 ],
                 "extra_info": [
-                  "NONAV",
                   "REFN3"
                 ],
                 "referer": "https://shares.enetres.net/live.php"
@@ -5218,9 +5503,7 @@
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "TV Castell\u00f3",
@@ -5341,7 +5624,15 @@
                 "web": "https://www.burrianateve.com/burrianateve-en-directe/",
                 "logo": "https://graph.facebook.com/burrianateve/picture?width=200&height=200",
                 "epg_id": null,
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://www.burrianateve.com/hls/btv.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EMB",
@@ -5355,14 +5646,16 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "http://video.telesafor.com/hls/video.m3u8",
+                    "format": "stream",
+                    "url": "https://video.telesafor.com/index.html",
                     "geo2": null,
                     "res": null,
                     "lang": null
                   }
                 ],
-                "extra_info": []
+                "extra_info": [
+                  "EMB"
+                ]
               },
               {
                 "name": "Canal 56",
@@ -5378,9 +5671,7 @@
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "Tevequatre TV",
@@ -5390,15 +5681,13 @@
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://cdn01.yowi.tv/5RO3JQE6LN/master.m3u8",
+                    "url": "https://limited09.todostreaming.es/live/tarson-livestream.m3u8",
                     "geo2": null,
                     "res": null,
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "Maestrat TV",
@@ -5437,7 +5726,15 @@
                 "web": "https://www.tvalmassora.com/en-directo/",
                 "logo": "https://graph.facebook.com/tvalmassora/picture?width=200&height=200",
                 "epg_id": null,
-                "options": [],
+                "options": [
+                    {
+                      "format": "stream",
+                      "url": "https://ok.ru/videoembed/5143208402432",
+                      "geo2": null,
+                      "res": null,
+                      "lang": null
+                    }
+                ],
                 "extra_info": [
                   "W3U",
                   "EMB",
@@ -5474,9 +5771,7 @@
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               },
               {
                 "name": "Punt 3 Vall Uix\u00f3",
@@ -5605,32 +5900,24 @@
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://cdnlive.shooowit.net/canalextremaduralive/smil:channel1DVR.smil/playlist.m3u8",
+                    "url": "https://cdnlive.codev8.net/canalextremaduralive/smil:channel1.smil/.m3u8",
                     "geo2": null,
                     "res": null,
                     "lang": null
                   }
                 ],
                 "extra_info": [
-                  "NONAV"
+                
                 ]
               },
               {
                 "name": "TV Extreme\u00f1a",
-                "web": "https://www.xn--televisionextremea-30b.com/directo/",
+                "web": "https://player.twitch.tv/?channel=tvextremena&parent=tv",
                 "logo": "https://graph.facebook.com/TELEVISIONEXTREMENA/picture?width=200&height=200",
                 "epg_id": null,
-                "options": [
-                  {
-                    "format": "stream",
-                    "url": "https://player.twitch.tv/?channel=tvextremena&parent=tdtchannels.com&parent=www.tdtchannels.com",
-                    "geo2": null,
-                    "res": null,
-                    "lang": null
-                  }
-                ],
+                "options": [],
                 "extra_info": [
-                  "EMB"
+                  "NONAV"
                 ]
               },
               {
@@ -5885,15 +6172,15 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://live.yowi.tv/66cee82ab80609daa5f1_hermes/index.m3u8",
+                    "format": "stream",
+                    "url": "https://yowi.tv/embed/hermestvvigo",
                     "geo2": null,
                     "res": null,
                     "lang": null
                   }
                 ],
                 "extra_info": [
-                  "NONAV"
+                  "EMB"
                 ]
               },
               {
@@ -5953,7 +6240,7 @@
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://5940924978228.streamlock.net/EIVISSA_1/EIVISSA_1/playlist.m3u8",
+                    "url": "https://5940924978228.streamlock.net/EIVISSA_1/EIVISSA_1/.m3u8",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -6189,15 +6476,15 @@
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://live.yowi.tv/002c3bb235962b8f1b16/master.m3u8",
+                    "format": "stream",
+                    "url": "https://yowi.tv/embed/dotbeus",
                     "geo2": null,
                     "res": null,
                     "lang": null
                   }
                 ],
                 "extra_info": [
-                  "NONAV"
+                  "EMB"
                 ]
               },
               {
@@ -6246,10 +6533,7 @@
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV",
-                  "UAG"
-                ]
+                "extra_info": []
               },
               {
                 "name": "Erlo TV",
@@ -6291,15 +6575,13 @@
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://5940924978228.streamlock.net/j_Directo2/mp4:j_Directo2/playlist.m3u8",
+                    "url": "https://5940924978228.streamlock.net/j_Directo2/smil:j_Directo2/playlist.m3u8",
                     "geo2": null,
                     "res": null,
                     "lang": null
                   }
                 ],
-                "extra_info": [
-                  "NONAV"
-                ]
+                "extra_info": []
               }
             ]
           },
@@ -6311,7 +6593,15 @@
                 "web": "https://www.rtpa.es/tpa-television",
                 "logo": "https://graph.facebook.com/RTPAoficial/picture?width=200&height=200",
                 "epg_id": "TPA.TV",
-                "options": [],
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://cdnlive.codev8.net/rtpalive/directo.smil/.m3u8?DVR",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
                 "extra_info": [
                   "W3U",
                   "EXTA"
@@ -6364,7 +6654,7 @@
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://rtv-murcia-live.globalmest.com/hls/rtv-murcia.m3u8",
+                    "url": "https://obelix.nopiensomas.com/stream/abr/first.m3u8",
                     "geo2": null,
                     "res": null,
                     "lang": null
@@ -6875,6 +7165,22 @@
                 "extra_info": []
               },
               {
+                "name": "BBC World",
+                "web": "https://www.bbc.com/news/world",
+                "logo": "https://graph.facebook.com/bbcnews/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://1750851119.rsc.cdn77.org/7jSpspHDo3hfuz430rWEFA==,1647418380/1750851119/index.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": "EN"
+                  }
+                ],
+                "extra_info": []
+              },
+              {
                 "name": "RTP 1 Portugal",
                 "web": "https://www.rtp.pt/play/direto/rtp1",
                 "logo": "https://graph.facebook.com/rtp1.pt/picture?width=200&height=200",
@@ -7189,17 +7495,65 @@
             "name": "Int. Am\u00e9rica",
             "channels": [
               {
-                "name": "FOX Live Now USA",
-                "web": "https://www.foxnews.com",
-                "logo": "https://graph.facebook.com/livenowfox/picture?width=200&height=200",
+                "name": "ABC",
+                "web": "https://cdn1-7p.teleuptv.net/b7b852cd-363e-4f4e-b9b3-bd08e89b6b3c/index.m3u8",
+                "logo": "https://assets.cdn.watchdisneyfe.com/delta/assets/abc/abc-nav.png",
+                "epg_id": null,
+                "options": [],
+                "extra_info": [
+                  "NONAV"
+                ]
+              },
+              {
+                "name": "CBS",
+                "web": "https://cdn1-7p.teleuptv.net/a296d8bd-0d0c-4e4a-9ad8-6300a589fe0a/index.m3u8",
+                "logo": "https://graph.facebook.com/CBS/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [],
+                "extra_info": [
+                  "NONAV"
+                ]
+              },
+              {
+                "name": "NBC",
+                "web": "https://cdn1-7p.teleuptv.net/807bc362-f682-4ffd-bc70-ed2b9deb8ff5/index.m3u8",
+                "logo": "https://graph.facebook.com/nbc/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [],
+                "extra_info": [
+                  "NONAV"
+                ]
+              },
+              {
+                "name": "BBC America",
+                "web": "https://cdn1-8p.teleuptv.net/67e0ca24-e59c-4248-b947-56c4a2819aea/index.m3u8",
+                "logo": "https://graph.facebook.com/BBCAmerica/picture?width=200&height=200",
                 "epg_id": null,
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8",
+                    "url": "https://cdn1-8p.teleuptv.net/67e0ca24-e59c-4248-b947-56c4a2819aea/index.m3u8",
                     "geo2": null,
                     "res": null,
                     "lang": "EN"
+                  }
+                ],
+                "extra_info": [
+                  "NONAV"
+                ]
+              },
+              {
+                "name": "Telemundo",
+                "web": "https://www.telemundo31.com/en-vivo",
+                "logo": "https://graph.facebook.com/Telemundo/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://wtmolive-lh.akamaihd.net/i/WTMO_LIVE1@749969/master.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
                   }
                 ],
                 "extra_info": []
@@ -7254,6 +7608,23 @@
                 ],
                 "extra_info": []
               },
+              {
+                "name": "FOX News",
+                "web": "https://www.foxnews.com/",
+                "logo": "https://graph.facebook.com/FoxNews/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": "null"
+                  }
+                ],
+                "extra_info": []
+              },
+
               {
                 "name": "Cheddar USA",
                 "web": "https://cheddar.com/live",
@@ -9192,6 +9563,22 @@
                   }
                 ],
                 "extra_info": []
+              },
+              {
+                "name": "Medicos TV",
+                "web": "https://medicostv.com/",
+                "logo": "https://graph.facebook.com/canalmedicostv/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://livestream.medicostv.com/ott/photocall.stream/playlist.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": []
               }
             ]
           },
@@ -9411,6 +9798,108 @@
           {
             "name": "Deportivos Int.",
             "channels": [
+              {
+                "name": "ESPN USA",
+                "web": "https://stream2.grandma.fit/fs2.m3u8",
+                "logo": "https://graph.facebook.com/ESPN/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [],
+                "extra_info": [
+                  "EMB"
+                ]
+              },
+              {
+                "name": "ESPN 2 USA",
+                "web": "https://stream2.grandma.fit/espn2.m3u8",
+                "logo": "https://graph.facebook.com/ESPN/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [],
+                "extra_info": [
+                  "EMB"
+                ]
+              },
+              {
+                "name": "ESPNU",
+                "web": "https://stream2.grandma.fit/espnu.m3u8",
+                "logo": "https://graph.facebook.com/ESPNU/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [],
+                "extra_info": [
+                  "EMB"
+                ]
+              },
+              {
+                "name": "FOX Live Now USA",
+                "web": "https://www.foxnews.com",
+                "logo": "https://graph.facebook.com/livenowfox/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": "EN"
+                  }
+                ],
+                "extra_info": []
+              },
+              {
+                "name": "Tennis",
+                "web": "http://tennischannel.com/",
+                "logo": "https://graph.facebook.com/tennischannel/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://dai.google.com/linear/hls/pa/event/Dlqr46ybTSGWGTfRWcxS0g/stream/7a5df2e3-0e84-44e0-b79c-651a6b8c06e7:BRU/master.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": "EN"
+                  }
+                ],
+                "extra_info": []
+              },
+              {
+                "name": "Tennis 2",
+                "web": "http://tennischannel.com/",
+                "logo": "https://graph.facebook.com/tennischannel/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://d3qg0hadt0dkov.cloudfront.net/amgtennisus/playlist.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": "EN"
+                  }
+                ],
+                "extra_info": []
+              },
+              {
+                "name": "Super Tennis",
+                "web": "https://supertennix-l3-live1.secure.footprint.net/restreamer/supertennix_client/gpu-a-c0-16/restreamer/rtmp/hls/h24_supertennix/manifest.m3u8",
+                "logo": "https://graph.facebook.com/supertennistv/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [],
+                "extra_info": []
+              },
+              {
+                "name": "ONEGOLF",
+                "web": null,
+                "logo": "https://graph.facebook.com/OneGolfTV/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "http://162.250.201.58:6211/pk/ONEGOLF/playlist.m3u8",
+                    "geo2": null,
+                    "res": null,
+                    "lang": "EN"
+                  }
+                ],
+                "extra_info": []
+              },
               {
                 "name": "Olympic Channel TV",
                 "web": "https://olympics.com/es/live/",
