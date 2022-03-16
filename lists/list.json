@@ -752,24 +752,6 @@
             "name": "Deportivos",
             "channels": [
               {
-                "name": "Liga de Campeones",
-                "web": "https://www.movistarplus.es/canal/m-plus-liga-de-campeones-10?id=CHAP10",
-                "logo": "https://i.imgur.com/36esQ4V.jpeg",
-                "epg_id": null,
-                "options": [
-                  {
-                    "format": "stream",
-                    "url": "https://goalmatch.webcindario.com/",
-                    "geo2": null,
-                    "res": null,
-                    "lang": null
-                  }
-                ],
-                "extra_info": [
-                  "EMB"
-                ]
-              },
-              {
                 "name": "ESPN",
                 "web": "https://espndeportes.espn.com/",
                 "logo": "https://graph.facebook.com/ESPN/picture?width=200&height=200",
