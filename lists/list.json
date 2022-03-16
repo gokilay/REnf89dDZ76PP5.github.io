@@ -7496,7 +7496,7 @@
             "channels": [
               {
                 "name": "ABC",
-                "web": "https://cdn1-7p.teleuptv.net/b7b852cd-363e-4f4e-b9b3-bd08e89b6b3c/index.m3u8",
+                "web": "https://ustvgo.tv/abc-live-streaming-free/",
                 "logo": "https://assets.cdn.watchdisneyfe.com/delta/assets/abc/abc-nav.png",
                 "epg_id": null,
                 "options": [],
@@ -7506,7 +7506,7 @@
               },
               {
                 "name": "CBS",
-                "web": "https://cdn1-7p.teleuptv.net/a296d8bd-0d0c-4e4a-9ad8-6300a589fe0a/index.m3u8",
+                "web": "https://ustvgo.tv/cbs-live-streaming-free/",
                 "logo": "https://graph.facebook.com/CBS/picture?width=200&height=200",
                 "epg_id": null,
                 "options": [],
@@ -7516,7 +7516,7 @@
               },
               {
                 "name": "NBC",
-                "web": "https://cdn1-7p.teleuptv.net/807bc362-f682-4ffd-bc70-ed2b9deb8ff5/index.m3u8",
+                "web": "https://ustvgo.tv/nbc/",
                 "logo": "https://graph.facebook.com/nbc/picture?width=200&height=200",
                 "epg_id": null,
                 "options": [],
@@ -7526,37 +7526,31 @@
               },
               {
                 "name": "BBC America",
-                "web": "https://cdn1-8p.teleuptv.net/67e0ca24-e59c-4248-b947-56c4a2819aea/index.m3u8",
+                "web": "https://ustvgo.tv/bbc-america-live/",
                 "logo": "https://graph.facebook.com/BBCAmerica/picture?width=200&height=200",
                 "epg_id": null,
-                "options": [
-                  {
-                    "format": "m3u8",
-                    "url": "https://cdn1-8p.teleuptv.net/67e0ca24-e59c-4248-b947-56c4a2819aea/index.m3u8",
-                    "geo2": null,
-                    "res": null,
-                    "lang": "EN"
-                  }
-                ],
+                "options": [],
                 "extra_info": [
                   "NONAV"
                 ]
               },
               {
                 "name": "Telemundo",
-                "web": "https://www.telemundo31.com/en-vivo",
+                "web": "https://ustvgo.tv/telemundo/",
                 "logo": "https://graph.facebook.com/Telemundo/picture?width=200&height=200",
                 "epg_id": null,
                 "options": [
                   {
-                    "format": "m3u8",
-                    "url": "https://wtmolive-lh.akamaihd.net/i/WTMO_LIVE1@749969/master.m3u8",
+                    "format": "stream",
+                    "url": "https://ustvgo.tv/telemundo/",
                     "geo2": null,
                     "res": null,
                     "lang": null
                   }
                 ],
-                "extra_info": []
+                "extra_info": [
+                  "NONAV"
+                ]
               },
               {
                 "name": "ABC News USA",
