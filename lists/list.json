@@ -8082,6 +8082,16 @@
                 ]
               },
               {
+                "name": "RCN",
+                "web": "https://stream-03.nyc.dailymotion.com/sec(0HE75RGSqqnhnSdEMl12ZUMrabCWHPENTFgwpwdAuhs)/dm/3/x7vyv0z/s/live-2.m3u8#cell=lnyc",
+                "logo": "https://graph.facebook.com/CanalRCN/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [],
+                "extra_info": [
+                  "NONAV"
+                ]
+              },
+              {
                 "name": "Canal Capital Colombia",
                 "web": "https://www.canalcapital.gov.co/senal-en-vivo",
                 "logo": "https://graph.facebook.com/CanalCapitalOficial/picture?width=200&height=200",
