@@ -8021,6 +8021,49 @@
                 "extra_info": []
               },
               {
+                "name": "Telemundo",
+                "web": "https://ustvgo.tv/telemundo/",
+                "logo": "https://graph.facebook.com/Telemundo/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "stream",
+                    "url": "https://ustvgo.tv/telemundo/",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "NONAV"
+                ]
+              },
+              {
+                "name": "Caracol",
+                "web": "https://noticias.caracoltv.com/ahora",
+                "logo": "https://graph.facebook.com/CaracolTV/picture?width=200&height=200",
+                "epg_id": null,
+                "options": [
+                  {
+                    "format": "m3u8",
+                    "url": "https://us-b4-p-e-pb13.cdn.mdstrm.com/live-stream/574463697b9817cf0886fc17/publish/media_2400.m3u8?aid=574462d1cab0f4d50866f001&uid=yeQfeLJ7QtWO7ieXS9p4E3OrFVd9OcCN&sid=ea8sIKBZVwy5y7O7wubqdeyxO07wZGDq&pid=Oto4XVaQcKbsGZ7N1vPSUZ026h1rcRZe&ref=&without_cookies=false&dnt=true&es=us-b4-p-e-pb13.cdn.mdstrm.com&ote=1647718257394&ot=FM8ux3mUyCEdN-EN2TYbeg&proto=https&pz=us",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  },
+                  {
+                    "format": "youtube",
+                    "url": "https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ/live",
+                    "geo2": null,
+                    "res": null,
+                    "lang": null
+                  }
+                ],
+                "extra_info": [
+                  "EMB"
+                ]
+              },
+              {
                 "name": "Noticias Caracol Colombia",
                 "web": "https://noticias.caracoltv.com/ahora",
                 "logo": "https://graph.facebook.com/NoticiasCaracol/picture?width=200&height=200",
@@ -8028,7 +8071,7 @@
                 "options": [
                   {
                     "format": "m3u8",
-                    "url": "https://mdstrm.com/live-stream-playlist_800/58dc3d471cbe05ff3c8e463e.m3u8",
+                    "url": "https://us-b4-p-e-qg12.cdn.mdstrm.com/live-stream/58dc3d471cbe05ff3c8e463e/publish/media_2400.m3u8?aid=589b13f631f1bebd088ff753&pid=7Yd1euvF04SsjsNhopxmzbTbwj4wLB0J&sid=ea8sIKBZVwy5y7O7wubqdeyxO07wZGDq&uid=yeQfeLJ7QtWO7ieXS9p4E3OrFVd9OcCN&es=us-b4-p-e-qg12.cdn.mdstrm.com&ote=1647717918663&ot=0mSBFMSmZGQ8wSWuh77ZkA&proto=https&pz=us",
                     "geo2": null,
                     "res": null,
                     "lang": null
