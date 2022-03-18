@@ -8039,8 +8039,8 @@
                 ]
               },
               {
-                "name": "Caracol",
-                "web": "https://noticias.caracoltv.com/ahora",
+                "name": "Caracol GEO",
+                "web": "https://mdstrm.com/live-stream/574463697b9817cf0886fc17",
                 "logo": "https://graph.facebook.com/CaracolTV/picture?width=200&height=200",
                 "epg_id": null,
                 "options": [
@@ -8053,12 +8053,13 @@
                   }
                 ],
                 "extra_info": [
-                  "EMB"
+                  "EMB",
+                  "NONAV"
                 ]
               },
               {
-                "name": "Noticias Caracol Colombia",
-                "web": "https://noticias.caracoltv.com/ahora",
+                "name": "Noticias Caracol GEO",
+                "web": "https://mdstrm.com/live-stream/58dc3d471cbe05ff3c8e463e",
                 "logo": "https://graph.facebook.com/NoticiasCaracol/picture?width=200&height=200",
                 "epg_id": null,
                 "options": [
@@ -8078,7 +8079,8 @@
                   }
                 ],
                 "extra_info": [
-                  "EMB"
+                  "EMB",
+                  "NONAV"
                 ]
               },
               {
