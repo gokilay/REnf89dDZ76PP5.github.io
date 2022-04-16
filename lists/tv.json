@@ -148,7 +148,7 @@
               "options": [
                 {
                   "format": "m3u8",
-                  "url": "http://91.126.141.13:1935/live/61/playlist.m3u8",
+                  "url": "http://94.127.187.118:8080/hls/t5.m3u8",
                   "geo2": null,
                   "res": null,
                   "lang": null
